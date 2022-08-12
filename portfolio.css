@@ -1,0 +1,168 @@
+.column {
+    float: left;
+    width: 270px;
+}
+
+row::after{
+    content: "";
+  clear: both;
+  display: table;
+}
+
+
+.heading{
+   background-color: #4aaaa5;
+text-align: center;
+font-size: 22px;
+padding: 15px 9px;
+font-weight: 700;
+line-height: 30px;
+color: #fff;
+font-family: Georgia, 'Times New Roman', Times, serif;
+position: relative;
+bottom: 70px;
+opacity: 0.95;
+}
+main img{
+    width: 270px;
+    height: 205px;
+   
+}
+.column:nth-child(2n+1){
+    margin-right: 40px;
+}
+
+
+#maindiv {
+    width: 100%;
+    padding-top: 130px;
+
+}
+
+
+
+
+/* copy paste from style.css // header  */
+
+li {
+    display: inline-block;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+    color: #777;
+    font-size: 18px;
+    background-image: url(./images/white_wall_hash.webp);
+    
+}
+main {
+    box-sizing: border-box;
+    max-width: 650px;
+    float: left;
+    border: 1px solid #ddd;
+    overflow: auto;
+    padding: 30px;
+    background-color: #fff;
+}
+h1,h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+   
+    
+}
+
+h1{
+    padding-bottom: 20px;
+    border-bottom: 3px solid #ccc;
+    font-size: 32px;
+      margin-bottom: 20px;
+}
+
+
+
+header {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    overflow: auto;
+    background-color: #fff;
+position: fixed;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+    
+}
+
+/* nav */
+#name {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    width: 250px;
+    height: 90px;
+    float: left;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+
+}
+nav {
+    margin-top: 30px;
+    float: right;
+
+}
+
+#about {
+    border-left: none;
+}
+
+nav a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    text-decoration: none;
+    border-left: 1px solid #efefee;
+    padding-left: 20px;
+    margin-left: 10;}
+
+
+
+/* copy paste from style.css // sidebar */
+section {
+    float: right;
+    border: 1px solid #ddd;
+    max-width: 270px;
+    box-sizing: border-box;
+    background-color: #fff;
+   font-size: 22px;
+}
+#connect{
+ padding: 30px;
+ margin-bottom: 20px;
+
+}
+h2{
+    border-bottom: 2px #ddd solid;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+section img {
+    width: 62px;
+    height: 62px;
+}
+
+footer{
+    clear: both;
+    background-color: #666;
+    border-top: 5px solid #4aaaa5;
+    font-size: 16px;
+    color: #ccc;
+    text-align: center;
+    padding: 30px 0;
+}
