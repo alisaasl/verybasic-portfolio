@@ -1,4 +1,4 @@
-<h1 align="center"> _PROYEKTIN ADI_ </h1>
+<h1 align="center"> Portfolio site </h1>
 
 ## :book: How to use
 
